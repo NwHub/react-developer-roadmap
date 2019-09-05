@@ -1,8 +1,8 @@
-# React 開発者ロードマップ
+# React Developer Roadmap
 
 [README in Chinese](README-CN.md)
 
-[README in English](README.md)
+[README in Japanese](README-JA.md)
 
 [README in Portuguese (Brazil)](README-PTBR.md)
 
@@ -12,42 +12,41 @@
 
 > Roadmap to becoming a React developer in 2019:
 
-これはReact開発者になるためにあなたが学ぶべき技術やライブラリを示すチャートです。 このチャートは、「React開発者として次に何を学ぶ必要があるのか」と悩むすべての人へのヒントとして作成しました。
+Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become a React developer. I made this chart as a tip for everyone who asks me, "What should I learn next as a React developer?"
 
-## 免責事項
-> このロードマップの目的は、あなたに状況を把握するヒントを与えることです。 あなたが次に何を学ぶべきかについて迷っているときにこのロードマップが導いてくれるでしょう。 あるツールがどのようなケースで他よりも適しているのか、その理由について理解を深める必要があります。また、流行しているものが必ずしも最適であるとは限らないことに注意してください。
+## Disclaimer
+> The purpose of this roadmap is to give you an idea about the landscape. The road map will guide you if you are confused about what to learn next, rather than encouraging you to pick what is hip and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and remember hip and trendy does not always mean best suited for the job
 
 ## Roadmap
 
-![Roadmap](./roadmap-ja.png)
+![Roadmap](./roadmap.png)
 
 ## Resources
 
-1. 基礎知識
+1. Basics
     1. HTML
-        * HTMLの基礎知識を学ぶ
-        * 練習としていくつかページを作成する
+        * Learn the basics of HTML
+        * Make a few pages as an exercise
     2. CSS
-        * CSSの基礎知識を学ぶ
-        * 前項で作成したページにCSSを当てる
-        * ページを grid 及び flexbox で作成する
-    3. JS基礎
-        * 構文に詳しくなる
-        * DOMの基本操作を学ぶ
-        * JSに特徴的なメカニズムを学ぶ (巻き上げ(Hoisting), Event Bubbling, Prototyping)
-        * AJAX (XHR) を利用する
-        * 新機能を学ぶ (ECMA Script 6以降)
-        * jQueryライブラリに詳しくなる
-2. 一般開発技能
-    1. GITについて学ぶ。GitHubにいくつかレポジトリを作成し他の人と共有してみる
+        * Learn the basics of CSS
+        * Style pages from previous step
+        * Build a page with grid and flexbox
+    3. JS Basics
+        * Get familiar with the syntax
+        * Learn basic operations on DOM
+        * Learn mechanisms typical for JS (Hoisting, Event Bubbling, Prototyping)
+        * Make some AJAX (XHR) calls
+        * Learn new features (ECMA Script 6+)
+        * Additionally, get familiar with the jQuery library
+2. General Development Skills
+    1. Learn GIT, create a few repositories on GitHub, share your code with other people
     2. Know HTTP(S) protocol, request methods (GET, POST, PUT, PATCH, DELETE, OPTIONS)
-    2. HTTP(S)について知る。リクエストメソッド (GET, POST, PUT, PATCH, DELETE, OPTIONS)
-    3. Googleを活用して検索する。[Power Searching with Google](http://www.powersearchingwithgoogle.com/)
-    4. ターミナルに慣れる。shell(bash, zsh, fish)の設定をしてみる。
-    5. データ構造とアルゴリズムについての本を読む
-    6. デザインパターンについての本を読む
-3. 公式サイトでReactについて学ぶ [official website](https://reactjs.org/tutorial/tutorial.html) or complete some [courses](https://egghead.io/courses/the-beginner-s-guide-to-react)
-4. 利用するツールに詳しくなる
+    3. Don't be afraid of using Google, [Power Searching with Google](http://www.powersearchingwithgoogle.com/)
+    4. Get familiar with terminal, configure your shell (bash, zsh, fish)
+    5. Read a few books about algorithms and data structures
+    6. Read a few books about design patterns
+3. Learn React on [official website](https://reactjs.org/tutorial/tutorial.html) or complete some [courses](https://egghead.io/courses/the-beginner-s-guide-to-react)
+4. Get familiar with tools that you will be using
     1. Package Managers
         * [npm](https://www.npmjs.com/)
         * [yarn](https://yarnpkg.com/lang/en/)
@@ -82,10 +81,10 @@
         * [Emotion](https://emotion.sh/)
         * [JSS](http://cssinjs.org/)
         * [Aphrodite](https://github.com/Khan/aphrodite)
-6. State管理
+6. State Management
     1. [Component State](https://reactjs.org/docs/faq-state.html)/[Context API](https://reactjs.org/docs/context.html)
     2. [Redux](https://redux.js.org/)
-        1. 非同期処理 (副作用)
+        1. Async actions (Side Effects)
             * [Redux Thunk](https://github.com/reduxjs/redux-thunk)
             * [Redux Better Promise](https://github.com/Lukasz-pluszczewski/redux-better-promise)
             * [Redux Saga](https://redux-saga.js.org/)
@@ -98,7 +97,7 @@
             * [Redux Phoenix](https://github.com/adam-golab/redux-phoenix)
         4. [Redux Form](https://redux-form.com)
     3. [MobX](https://mobx.js.org/)
-7. 型チェッカー
+7. Type Checkers
     * [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
     * [TypeScript](https://www.typescriptlang.org/)
     * [Flow](https://flow.org/en/)
@@ -146,14 +145,14 @@
         * [Nightwatch.js](http://nightwatchjs.org/)
     3. Integration Testing
         * [Karma](https://karma-runner.github.io/)
-13. 国際化(Internationalization)
+13. Internationalization
     * [React Intl](https://github.com/yahoo/react-intl)
     * [React i18next](https://react.i18next.com/)
 14. Server Side Rendering
     * [Next.js](https://nextjs.org/)
     * [After.js](https://github.com/jaredpalmer/after.js)
     * [Rogue](https://github.com/alidcastano/rogue.js)
-15. 静的サイトジェネレータ(Static Site Generator)
+15. Static Site Generator
     * [Gatsby](https://www.gatsbyjs.org/)
 16. Backend Framework Integration
     * [React on Rails](https://shakacode.gitbooks.io/react-on-rails/content/)
@@ -169,16 +168,15 @@
 
 ## Wrap Up
 
-ロードマップに改善できる点があれば、Pull Requestを開いてissueを投稿してください。私もあなたがSTARをつけたくなるように、このロードマップを改善し続けます。
+If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
 
 ## Contribution
 
-このロードマップは [Draw.io](https://www.draw.io/) を利用してつくられています。プロジェクトファイルは `/src` ディレクトリにあります。 修正するときは, draw.ioを開いて **Open Existing Diagram** をクリックし `xml` ファイルを選択してください。ロードマップが開きます。それを更新し `png` としてエクスポートして、ファイルとreadmeを更新し, Pull Requestを作成してください.
+The roadmap is built using [Draw.io](https://www.draw.io/). Project file can be found at `/src` directory. To modify it, open draw.io, click **Open Existing Diagram** and choose `xml` file with project. It will open the roadmap for you. Update it, upload and update the images in readme and create a PR (export as png).
 
-
-- 改善のプルリクエストを開く
-- 問題のアイデアを話し合う
-- 広く周知する
+- Open a pull request with improvements
+- Discuss ideas in issues
+- Spread the word
 
 ## License
 
